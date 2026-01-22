@@ -124,7 +124,7 @@ export function FormaLabs({
             <div className="relative h-64 lg:h-auto">
               {/* Image */}
               <div className="absolute inset-0 bg-cover bg-center" style={{
-              backgroundImage: 'images/crig.png'
+              backgroundImage: 'Image/crig.png'
             }} />
 
               {/* Gradient Overlay - Fades from left to transparent on right */}

@@ -124,7 +124,7 @@ export function FormaLabs({
             <div className="relative h-64 lg:h-auto">
               {/* Image */}
               <div className="absolute inset-0 bg-cover bg-center" style={{
-              backgroundImage: 'url(https://cdn.magicpatterns.com/uploads/hXcRTKuhmsdNkbWw7dDaQp/Gemini_Generated_Image_33j3oo33j3oo33j3.png)'
+              backgroundImage: 'images/crig.png'
             }} />
 
               {/* Gradient Overlay - Fades from left to transparent on right */}

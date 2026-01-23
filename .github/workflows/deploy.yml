@@ -30,6 +30,10 @@ jobs:
         run: npm ci # Installe les dépendances proprement
       - name: Build
         run: npm run build # Lance la compilation
+
+      - name: Disable Jekyll
+        run: touch dist/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

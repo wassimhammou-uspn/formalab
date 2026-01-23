@@ -3,23 +3,34 @@ import { Activity, Equipment } from '../types/formalabs';
 import { ActivityCard } from '../components/ActivityCard';
 import { EquipmentCard } from '../components/EquipmentCard';
 import { Header } from '../components/Header';
-const activities: Activity[] = [{
-  id: '1',
-  title: 'Projets Étudiants',
-  description: 'Accompagnement complet pour vos projets académiques et personnels, de la conception à la réalisation finale.'
-}, {
-  id: '2',
-  title: 'Accessibilité & Handicap',
-  description: "Développement de solutions inclusives et technologies d'assistance pour améliorer le quotidien de tous."
-}, {
-  id: '3',
-  title: 'Transition Énergétique',
-  description: 'Innovation durable et éco-conception pour répondre aux défis environnementaux actuels.'
-}, {
-  id: '4',
-  title: 'Vie Étudiante',
-  description: "Un espace de rencontre, d'échange et d'événements pour dynamiser la communauté universitaire."
-}];
+const activities: Activity[] = [
+  {
+    id: '1',
+    title: 'Projets Étudiants',
+    description: 'Accompagnement complet pour vos projets académiques tutorés, de la conception à la réalisation finale.'
+  },
+  {
+    id: '2',
+    title: 'Projets Libres',
+    description: "Un espace ouvert pour vos projets personnels, le prototypage rapide et l'expérimentation DIY en autonomie."
+  },
+  {
+    id: '3',
+    title: 'Partenariats & Territoire',
+    description: "Co-création avec les acteurs locaux, associations et entreprises pour ancrer l'innovation dans le territoire."
+  },
+  {
+    id: '4',
+    title: 'Transition Écologique & Sociale',
+    description: 'Innovation durable, éco-conception et solutions à impact social pour répondre aux défis environnementaux.'
+  },
+  {
+    id: '5',
+    title: 'Médiation Scientifique',
+    description: 'Ateliers de vulgarisation et événements pour partager la culture scientifique et technique avec le plus grand nombre.'
+  }
+];
+
 const equipments: Equipment[] = [{
   id: '3D-01',
   name: 'Imprimante 3D',

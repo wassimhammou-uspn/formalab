@@ -45,7 +45,7 @@ export function Header({
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Left: University Logo */}
         <div className="flex items-center">
-          <img src="public/images/sorbonne.png" alt="Université Sorbonne Paris Nord" className="h-12 w-auto" />
+          <img src="images/sorbonne.png" alt="Université Sorbonne Paris Nord" className="h-12 w-auto" />
         </div>
 
         {/* Center: Table of Contents Navigation */}

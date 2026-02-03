@@ -26,8 +26,8 @@ const activities: Activity[] = [
   },
   {
     id: '5',
-    title: 'Médiation Scientifique',
-    description: 'Ateliers de vulgarisation et événements pour partager la culture scientifique et technique avec le plus grand nombre.'
+    title: 'Narration Scientifique',
+    description: 'Ateliers de médiation et événements pour partager la culture scientifique et technique avec le plus grand nombre.'
   }
 ];
 
